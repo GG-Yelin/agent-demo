@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd1e175a-f7f0-4cd1-9202-810e74451a73" name="Changes" comment="reAct">
-      <change afterPath="$PROJECT_DIR$/plan-solve-demo/Executor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan-solve-demo/PlanAndSolveAgent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plan-solve-demo/Planer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection-demo/Memory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reflection-demo/ReflectionAgent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +36,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.HelloAgentsLLM.executor": "Run",
+    "Python.PlanAndSolveAgent.executor": "Run",
     "Python.ReActAgent.executor": "Run",
+    "Python.ReflectionAgent.executor": "Run",
     "Python.Search.executor": "Run",
     "Python.main (1).executor": "Run",
     "Python.main.executor": "Run",
@@ -60,7 +61,7 @@
       <recent name="$PROJECT_DIR$/agent-0" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.PlanAndSolveAgent">
+  <component name="RunManager" selected="Python.ReflectionAgent">
     <configuration name="HelloAgentsLLM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="agent-demo" />
       <option name="ENV_FILES" value="" />
@@ -127,6 +128,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ReflectionAgent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="agent-demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/reflection-demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reflection-demo/ReflectionAgent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="agent-demo" />
       <option name="ENV_FILES" value="" />
@@ -149,36 +172,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="agent-demo" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/llm-demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/llm-demo/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ReflectionAgent" />
         <item itemvalue="Python.PlanAndSolveAgent" />
         <item itemvalue="Python.ReActAgent" />
         <item itemvalue="Python.Search" />
         <item itemvalue="Python.HelloAgentsLLM" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770107198566</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="reAct">
+      <option name="closed" value="true" />
+      <created>1770109874576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770109874576</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
